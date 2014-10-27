@@ -10,6 +10,6 @@
 using namespace std;
 
 int main() {
-	cout << "I fucking hate this system!!" << endl; // prints !!!Hello World!!!
+	cout << "I fucking hate this system too!!" << endl; // prints !!!Hello World!!!
 	return 0;
 }
