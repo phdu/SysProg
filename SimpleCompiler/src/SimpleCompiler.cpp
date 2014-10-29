@@ -1,15 +1,15 @@
 //============================================================================
 // Name        : SimpleCompiler.cpp
-// Author      :
+// Author      : 
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Hello World in C, Ansi-style
 //============================================================================
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-	cout << "I fucking hate this system too!!" << endl; // prints !!!Hello World!!!
-	return 0;
+int main(void) {
+	puts("!!!Hello World!!!");
+	return EXIT_SUCCESS;
 }
